@@ -5,6 +5,8 @@ Bug Fixes:
 - Deprecate misspelled methods `removeMonitoreNotifier` and
   `setRegionStatePeristenceEnabled` in favor of correctly spelled alternatives.
   (#461, Marco Salis)
+- Fix issue causing callbacks to stop firing periodically due to Android N scan
+  limits (#489, Aaron Kromer)
 
 
 ### 2.9.2 / 2016-11-22
